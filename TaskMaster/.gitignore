@@ -5,6 +5,16 @@
 
 # dotenv files
 .env
+appsettings.json
+appsettings.Development.json
+
+# Ignore local dev files
+.vs/
+Properties/launchSettings.json
+
+# Ignore old controller
+Controllers/WeatherForecastController.cs
+Migrations/
 
 # User-specific files
 *.rsuser
